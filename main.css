@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body > header{ /* editar somente o cabeçalho */
+    background-color: rgb(165, 42, 42);
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    padding: 16px 0;
+}
+header .container{
+    display: flex;
+
+}
+header li{
+    display: inline;
+    word-spacing: 20px; /* espaçamento */
+    
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-decoration: none;
+}
+.articles article a :hover{
+    text-decoration: underline;
+}
+.articles article a{
+    background-color: rgb(165, 42, 42);
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: lighter;
+    margin-top: 8px;
+}
+.container{
+    width: 500px;
+    margin: 0 auto;
+}
+.articles{
+    display:flex
+    
+
+
+} 
+.articles article img{
+    /*height: 180px; */
+    height: 50%;
+}
+.articles article{
+    width: 30%;
+}
+.articles article p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+.articles article h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    
+}
+#sports{
+background-color: rgb(137, 199, 173);
+}
+#sports .articles article a{
+    background-color: rgb(10, 61, 10);
+}
+#sports h2{
+    color: green;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+
+}
+#economy{
+    background-color: rgb(185, 125, 125);
+}
+#economy h2{
+    color: rgb(99, 12, 12);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+
+
+#Entertainment{
+    background-color: rgb(212, 212, 129);
+}
+#Entertainment h2{
+    color: rgb(79, 92, 8);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+#Entertainment .articles article a{
+    background-color: rgb(119, 119, 20);
+}
+#Technology{
+    background-color: rgb(139, 139, 197);
+}
+#Technology h2{
+    color: rgb(36, 11, 95);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+#Technology .articles article a{
+    background-color: rgb(23, 23, 134);
+}
